@@ -121,10 +121,9 @@
     color: #222; }
 .img-container {
   width: 200px;
-  height: 200px;
-  padding: 10px;}
+  height: 200px;}
 .img-plus-caption{
-  margin: 10px;
+  text-align: center;
 }
 
 /* Larger than phone */
