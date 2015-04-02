@@ -5,12 +5,32 @@
 
   <!-- columns should be the immediate child of a .row -->
   <div class="row">
-    <div class="four columns"><a class="navbar-link" href="/haptic_slip_display"> Haptic Slip Display</a></div>
-    <div class="four columns"><a class="navbar-link" href="/cell_sorter">Cell Sorter</a></div>
-    <div class="four columns"><a class="navbar-link" href="/raven">Raven</a></div>
+    <div class="four columns">
+    	<div class="img-plus-caption">
+    		<img class="img-container" src="{{url_for('static', filename='haptic_slip_img.png')}}" href="/haptic_slip_display" >
+    		<a class="img-link" href="/haptic_slip_display">Haptic Slip Display</a>
+    	</div>
+	</div>
+    <div class="four columns">
+    	<div class="img-plus-caption">
+    		<img class="img-container" src="{{url_for('static', filename='cell_sorter_img.png')}}" href="/cell_sorter" >
+    		<a class="img-link" href="/cell_sorter">Cell Sorter</a>
+    	</div>
+    </div>
+    <div class="four columns">
+    	<div class="img-plus-caption">
+    		<img class="img-container" src="{{url_for('static', filename='raven_img.png')}}" href="/raven" >
+    		<a class="img-link" href="/raven">Raven</a>
+    	</div>
+    </div>
   </div>
   <div class="row">
-    <div class="four columns"><a class="navbar-link" href="/fitbit">Fitbit Challenges</a></div>
+    <div class="four columns">
+    	<div class="img-plus-caption">
+    		<img class="img-container" src="{{url_for('static', filename='fitbit_challenges_img.png')}}" href="/fitbit_challenges" >
+    		<a class="img-link" href="/fitbit_challenges">Fitbit Challenges</a>
+    	</div>
+    </div>
   </div>
 
 </div>

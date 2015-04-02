@@ -106,7 +106,26 @@
   margin-right: 3rem;}
 .custom_p{
   float: left;}
-
+.hangingindent {
+  padding-left: 22px ;
+  text-indent: -22px ;}
+.img-link {
+    text-transform: uppercase;
+    font-size: 11px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    margin: 0;
+    text-decoration: none;
+    line-height: 6.5rem;
+    color: #222; }
+.img-container {
+  width: 200px;
+  height: 200px;
+  padding: 10px;}
+.img-plus-caption{
+  margin: 10px;
+}
 
 /* Larger than phone */
 @media (min-width: 550px) {
@@ -131,6 +150,15 @@
     height: 100%;
     left: 0;
     max-height: none; }
+  .navbar-link {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: .4rem;
+    margin-right: 35px;
+    text-decoration: none;
+    line-height: 13rem;
+    color: #222; }
 }
 
 /* Larger than tablet */

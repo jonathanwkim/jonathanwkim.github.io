@@ -37,3 +37,7 @@ def blog():
 @app.route('/contact')
 def contact():
 	return render_template('contact.html')
+
+@app.route('/personal')
+def personal():
+	return render_template('personal.html')
