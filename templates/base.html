@@ -1,0 +1,38 @@
+<!doctype html>
+<title>Jonathan Kim</title>
+
+<link rel=stylesheet href="{{ url_for('static', filename='skeleton.css') }}">
+<link rel=stylesheet href="{{ url_for('static', filename='custom.css') }}">
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico')}}" type="image/x-icon"/>
+<link rel="icon" href="{{ url_for('static', filename='favicon.ico')}}" type="image/x-icon">
+<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+<div class="container">
+
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">          
+          <li class="navbar-item"><a class="navbar-link" href="https://jonkim93.tumblr.com">Blog</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="/resume">Resume</a></li>          
+          <li class="navbar-item"><a class="navbar-link" href="/projects">Projects</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="/about">About</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+
+    {% block body %}{% endblock %}
+
+    <div class="navbar-spacer"></div>
+    <div class="footer">
+      <div class="table">
+        <ul class="navbar-list-footer">
+          <li class="navbar-item-footer"><a class="navbar-link" href="https://github.com/jonkim93">Github</a></li>
+          <li class="navbar-item-footer"><a class="navbar-link" href="https://www.linkedin.com/in/jonathanwkim">LinkedIn</a></li>
+          <li class="navbar-item-footer"><a class="navbar-link" href="https://www.facebook.com/jonkim93">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+
+</div>
