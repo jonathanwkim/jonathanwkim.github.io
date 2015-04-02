@@ -3,7 +3,7 @@ from flask import Flask, request, session, g, redirect, url_for, abort, render_t
 from contextlib import closing
 
 # configuration
-DATABASE = '/tmp/personal_site.db'
+#DATABASE = '/tmp/personal_site.db'
 DEBUG = True
 SECRET_KEY = 'development key'
 USERNAME = 'admin'
@@ -13,7 +13,7 @@ app = Flask(__name__)
 app.config.from_object(__name__)
 
 app.config.from_envvar('SITE_SETTINGS', silent=True)
-
+"""
 def connect_db():
     return sqlite3.connect(app.config['DATABASE'])
 
@@ -32,6 +32,7 @@ def teardown_request(exception):
     db = getattr(g, 'db', None)
     if db is not None:
         db.close()
+"""
 
 @app.route('/')
 def base():
