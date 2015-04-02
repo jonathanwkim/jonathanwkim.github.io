@@ -35,7 +35,7 @@ def teardown_request(exception):
 
 @app.route('/')
 def base():
-    return render_template('base.html')
+    return redirect(url_for('about'))
 
 @app.route('/about')
 def about():
@@ -52,6 +52,10 @@ def resume():
 @app.route('/blog')
 def blog():
 	return render_template('blog.html')
+
+@app.route('/contact')
+def contact():
+	return render_template('contact.html')
 
 if __name__ == '__main__':
 	app.run()

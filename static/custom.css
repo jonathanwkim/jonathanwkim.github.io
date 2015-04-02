@@ -15,7 +15,7 @@
   font-weight: 600; }
 .docs-section {
   border-top: 1px solid #eee;
-  padding: 4rem 0;
+  padding: 1rem 0;
   margin-bottom: 0;}
 .value-img {
   display: block;
@@ -95,6 +95,12 @@
 .table {
   display: table;   /* Allow the centering to work */
   margin: 0 auto;}
+.rule {
+  border-top: 1px solid #eee;}
+.custom_link {
+    font-weight: 600;
+    text-decoration: none;
+    color: #222; }
 
 
 /* Larger than phone */
@@ -110,7 +116,7 @@
   .example-grid .columns {
     margin-bottom: 1.5rem; }
   .docs-section {
-    padding: 6rem 0; }
+    padding: 3rem 0; }
   .example-send-yourself-copy {
     float: right;
     margin-top: 12px; }
