@@ -101,6 +101,11 @@
     font-weight: 600;
     text-decoration: none;
     color: #222; }
+.custom_img {
+  float: left;
+  margin-right: 3rem;}
+.custom_p{
+  float: left;}
 
 
 /* Larger than phone */

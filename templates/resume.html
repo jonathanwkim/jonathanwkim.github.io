@@ -1,7 +1,9 @@
 {% extends "base.html" %}
 {% block body %}
 
-<div>
+<p>Download a pdf version of my resume <a href="{{url_for('static', filename='resume.pdf') }}">here</a>.</p>
+
+<div class="docs-section">
 	<h6 class="docs-header">EDUCATION</h6>
 	<p>Eniversity of California, Berkeley<br>
 	B.S. Electrical Engineering and Computer Science, May 2015<br>
@@ -26,11 +28,12 @@
 	</ul>
 </div>
 
-
 <div class="docs-section">
 	<h6 class="docs-header">RESEARCH EXPERIENCE</h6>
 	Biomaterials and Tissue Engineering Lab
 </div>
+
+<hr class="rule">
 
 <div class="docs-section">
 	<h6 class="docs-header">INDUSTRY EXPERIENCE</h6>
@@ -46,10 +49,17 @@
 	</ul>
 </div>
 
+
 <div class="docs-section">
 	<h6 class="docs-header">REFEREED JOURNAL PUBLICATIONS</h6>
 	<ul>
 		<li><a class="custom_link" href="http://www.ncbi.nlm.nih.gov/pubmed/22247566"><b>Microparticle Trapping by Ultrasonic Bessel Beam.</b></a> Y. Choe, <b>J. Kim</b>, K.K. Shung, E.S. Kim,  Applied Physics Letter, 2011.
+	</ul>
+</div>
+
+<div class="docs-section">
+	<h6 class="docs-header">SKILLS</h6>
+	<ul>
 	</ul>
 </div>
 

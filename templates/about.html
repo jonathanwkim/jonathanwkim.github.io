@@ -1,8 +1,12 @@
 {% extends "base.html" %}
 {% block body %}
 
+<div class="custom_img">
+<img src="{{url_for('static', filename='profile.png')}}" width="200" height="200" title="profile" padding="10">
+</div>
 
-
+<div>
 <p>I am interested in the intersection of computer science and medicine. I am currently an undergraduate at UC Berkeley majoring in Electrical Engineering and Computer Science. When I graduate in Spring 2015, I will work at Fitbit, Inc. as a research software prototyper. </p>
+</div>
 
 {% endblock %}
