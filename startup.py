@@ -41,3 +41,7 @@ def contact():
 @app.route('/personal')
 def personal():
 	return render_template('personal.html')
+
+@app.route('/projects/<p>')
+def project(p):
+	return render_template(str(p)+'.html')
